@@ -9,6 +9,12 @@ h1 {
   margin-left: 50px;
 }
 
+p {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
 a {
   font-family: helvetica;
   font-weight: lighter;
@@ -24,6 +30,9 @@ a:hover {
 
 form {
   margin-left: 50px;
+  padding: 7px 0;
+  border-bottom: 1px solid pink;
+  max-width: 200px;
 }
 
 .link {
@@ -31,6 +40,7 @@ form {
   margin-top: 30px;
 }
 
-.delete {
+i {
   color: red;
+  margin-left: 10px;
 }
